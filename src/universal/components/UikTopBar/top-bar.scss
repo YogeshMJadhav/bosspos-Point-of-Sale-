@@ -1,0 +1,28 @@
+@import '../../vars.scss';
+.wrapper {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: #FFFFFF;
+  border-bottom: 1px solid $borderColor;
+  flex-shrink: 0;
+  flex-grow: 0;
+  &.center {
+    justify-content: center;
+  }
+}
+
+.pageName {
+  /* Socialio: */
+  font-weight: 500;
+  font-size: 1rem;
+  color: $textMain;
+  line-height: 1.75;
+  i {
+    color: $primary;
+    margin-right: 14px;
+  }
+}
+

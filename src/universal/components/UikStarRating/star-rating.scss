@@ -1,0 +1,12 @@
+@import '../../vars.scss';
+.wrapper {
+  i {
+    color: $borderColor;
+    & + * {
+      margin-left: 2px;
+    }
+  }
+  i.fill {
+    color: #FACF55
+  }
+}

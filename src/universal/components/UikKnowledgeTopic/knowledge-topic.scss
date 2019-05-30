@@ -1,0 +1,45 @@
+@import '../../vars.scss';
+div.wrapper {
+  display: flex;
+  align-items: center;
+  transition: .2s;
+  & + * {
+    margin-top: 30px;
+  }
+  .content {
+    margin-left: 24px;
+    & + * {
+      margin-left: 24px;
+    }
+    flex-grow: 1;
+    .title {
+      display: flex;
+      align-items: center;
+    }
+    .tag {
+      margin-left: 10px;
+    }
+  }
+  .action {
+    margin-left: 20px;
+    display: block;
+  }
+  .users {
+    display: flex;
+    justify-content: flex-end;
+    & > * + * {
+      margin-left: 10px;
+    }
+  }
+
+  .link {
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.dropdownIcon {
+  font-size: .7rem;
+  color: $textSecondary;
+}

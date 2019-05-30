@@ -1,0 +1,32 @@
+@import '../../vars.scss';
+.wrapper {
+  color: $textSecondary;
+  background-color: rgba($textSecondary, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  font-size: 1.25rem;
+  
+  &.circle {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+  }
+
+  &.square {
+    height: 38px;
+    width: 38px;
+    border-radius: 4px;
+  }
+
+
+  @each $name, $color in $colorPairs {
+    &:global(.#{$name}) {
+      background-color: rgba($color, 0.1);
+      color: $color;
+    }
+  }
+
+}
+

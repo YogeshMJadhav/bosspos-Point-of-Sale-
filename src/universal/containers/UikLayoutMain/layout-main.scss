@@ -1,0 +1,31 @@
+.wrapper {
+  height: 100%;
+  overflow-y: auto;
+  flex-grow: 1;
+
+}
+
+
+  .wrapperInner {
+    padding: 15px;
+    // to prevent collapsing margins
+    // https://css-tricks.com/what-you-should-know-about-collapsing-margins/
+    display: flex;
+    flex-direction: column;
+    &.contentCenter, &.contentCenterMedium {
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+
+    &.contentCenter, &.contentCenterMedium {
+      margin: 0 auto;
+    }
+
+    &.contentCenterMedium {
+      max-width: 885px;
+    }
+
+    &.contentLeft {
+      max-width: 1170px;
+    }
+  }

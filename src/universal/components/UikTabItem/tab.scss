@@ -1,0 +1,36 @@
+@import '../../vars.scss';
+.item {
+  height: 70px;
+  border-bottom: 3px solid transparent;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .extra {
+    color: $textSecondary;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: .875rem;
+  }
+  &:hover {
+    color: $textMain;
+    border-bottom-color: rgba($primary, .3);
+  }
+  &:global(.active) {
+    border-bottom-color: $primary;
+    font-weight: 500;
+    color: $textMain;
+  }
+
+
+  &.small {
+    height: 62px;
+    font-size: .875rem;
+    .extra {
+      font-size: .75rem;
+    }
+  }
+
+}

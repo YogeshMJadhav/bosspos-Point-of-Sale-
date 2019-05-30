@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "razzle"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy",
+    "transform-es2015-modules-commonjs",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@config": "./config",
+          "@redux": "./src/universal/redux",
+          "@components": "./src/universal/components",
+          "@componentWrappers": "./src/universal/componentWrappers",
+          "@containers": "./src/universal/containers",
+          "@App": "./src/universal/App",
+          "@lib": "./src/universal/lib",
+          "@public": "./public",
+          "@exampleAssets": "./src/universal/exampleAssets",
+          "@shared":"./src/universal/App/shared"
+        }
+      }
+    ]
+  ]
+}

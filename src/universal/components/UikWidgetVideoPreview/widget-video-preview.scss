@@ -1,0 +1,49 @@
+@import '../../vars.scss';
+.wrapper {
+  display: flex;
+  height: 60px;
+  padding: 0 30px;
+  align-items: center;
+  .previewImage {
+    transition: .2s;
+    width: 74px;
+    height: 56px;
+    border-radius: 4px;
+
+    @include backgroundCover();
+  }
+  .previewImage + * {
+    margin-left: 20px;
+    flex-shrink: 0;
+  }
+  .title {
+    color: $textMain;
+    flex-grow: 1;
+    @include textOverflow();
+    font-weight: 500;
+    color: $textMain;
+    line-height: 1.5rem;
+  }
+
+  .views {
+    color: $textSecondary;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    display: block;
+    margin-top: 2px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &:hover {
+    .previewImage {
+      transform: scale(1.05);
+    }
+    .title {
+      color: $primary;
+    }
+  }
+
+}

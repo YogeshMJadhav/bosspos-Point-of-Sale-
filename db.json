@@ -1,0 +1,714 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "description": "solid",
+      "productTypeId": "1",
+      "actualPrice": 100,
+      "salePrice": 100,
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "description": "solid",
+      "productTypeId": "2",
+      "actualPrice": 104,
+      "salePrice": 104,
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 3,
+      "name": "Apple Pie",
+      "description": "milk",
+      "productTypeId": "3",
+      "actualPrice": 333,
+      "salePrice": 333,
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 4,
+      "name": "Frankie",
+      "description": "milk",
+      "productTypeId": "4",
+      "actualPrice": 121,
+      "salePrice": 121,
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 5,
+      "name": "pare-G",
+      "description": "no 1",
+      "productTypeId": "5",
+      "actualPrice": 10,
+      "salePrice": 10,
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 6,
+      "name": "Orange-Twist",
+      "description": "Veg",
+      "productTypeId": "6",
+      "actualPrice": 158,
+      "salePrice": "189",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 7,
+      "name": "Frenc-Fries",
+      "description": "veg",
+      "productTypeId": "6",
+      "actualPrice": 89,
+      "salePrice": "98",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 8,
+      "name": "Fruit-Sandwich",
+      "description": "veg",
+      "actualPrice": 88,
+      "salePrice": "109",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 9,
+      "name": "Tacos",
+      "description": "Non - veg",
+      "productTypeId": "6",
+      "actualPrice": 103,
+      "salePrice": "117",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 10,
+      "name": "Cheese- Sandwich",
+      "description": "veg",
+      "productTypeId": "6",
+      "actualPrice": 180,
+      "salePrice": "203",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 11,
+      "name": "Chocklate- Truffle",
+      "description": "Veg",
+      "productTypeId": "6",
+      "actualPrice": 63,
+      "salePrice": "69",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    },
+    {
+      "id": 12,
+      "name": "Brownie",
+      "description": "veg",
+      "actualPrice": 60,
+      "salePrice": "70",
+      "tax": [
+        "1",
+        "2"
+      ],
+      "IsDeleted": 0
+    }
+  ],
+  "tax": [
+    {
+      "name": "C-GST",
+      "description": "Country tax",
+      "value": "2.5",
+      "IsDeleted": 0,
+      "id": 1
+    },
+    {
+      "name": "S-GST",
+      "description": "Services Tax",
+      "value": "2.5",
+      "IsDeleted": 0,
+      "id": 2
+    }
+  ],
+  "userType": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "description": "Director",
+      "IsDeleted": 0
+    },
+    {
+      "id": 2,
+      "name": "MD",
+      "description": "md",
+      "IsDeleted": 0
+    },
+    {
+      "id": 3,
+      "name": "employee",
+      "description": "worker",
+      "IsDeleted": 0
+    }
+  ],
+  "paymentType": [
+    {
+      "id": 1,
+      "name": "Credit Card",
+      "description": "Card Payments",
+      "IsDeleted": 0
+    },
+    {
+      "name": "dshhhhhhh",
+      "description": "d",
+      "IsDeleted": 0,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "ef",
+      "description": "fff",
+      "IsDeleted": 0
+    }
+  ],
+  "productType": [
+    {
+      "id": 1,
+      "name": "Cold-drinks",
+      "description": "liqiud",
+      "IsDeleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Foodies",
+      "description": "test",
+      "IsDeleted": 0
+    },
+    {
+      "id": 3,
+      "name": "Fast-Food",
+      "description": "test",
+      "IsDeleted": 0
+    },
+    {
+      "id": 4,
+      "name": "Hot-Drink",
+      "description": "test",
+      "IsDeleted": 0
+    },
+    {
+      "id": 5,
+      "name": "Soft-Drink",
+      "description": "liquid",
+      "IsDeleted": 0
+    },
+    {
+      "id": 6,
+      "name": "Foodies",
+      "description": "test",
+      "IsDeleted": 0
+    }
+  ],
+  "User": [
+    {
+      "userName": "Akshay",
+      "address": "puneee",
+      "userTypeName": "Admin",
+      "contact1": "2445",
+      "contact2": "545454",
+      "email": "akshaychidre0@gamil.com",
+      "id": 2
+    },
+    {
+      "userName": "Aniket shinde",
+      "address": "new sangvi",
+      "userTypeName": "Admi",
+      "contact1": "999999999",
+      "contact2": "123456",
+      "email": "aniket.ivision@gmail.com",
+      "id": 3
+    }
+  ],
+  "ShopDetails": [
+    {
+      "shop_Name": "Ivision Web Studio",
+      "address": "Herambh Apt, Beside Kimaya Hotel,Karve Road, Pune",
+      "pincode": "4110384",
+      "contact1": "9876543210",
+      "contact2": "9988775565",
+      "email": "test@test.com",
+      "gst_No": "00112233",
+      "pan_No": "1234534232",
+      "description": "test",
+      "id": 1
+    }
+  ],
+  "Measurements": [
+    {
+      "id": "1",
+      "topMeasurementUnitName": "Kg",
+      "topMeasurementUnitValue": "1",
+      "lowMeasurementUnitName": "Gm",
+      "lowMeasurementUnitValue": "1000",
+      "description": "For Retailer"
+    }
+  ],
+  "Vendor": [
+    {
+      "name": "Aniket Punjab",
+      "address": "new sangvi,samarth nagar pune411027\nsamarth nagar",
+      "pincode": "411027",
+      "contact1": "1234567890",
+      "contact2": "1234567890",
+      "email": "aniket@gmail.com",
+      "gSTN_No": "12AAAAA0000A1Z15",
+      "pAN_No": "AAAAA0000A",
+      "id": 71
+    },
+    {
+      "name": "Balaji     Jammu ",
+      "address": "Baner Road, Balewadi Phata, Pune-42",
+      "pincode": "411042",
+      "contact1": "9646544578",
+      "contact2": "1234567890",
+      "email": "test@test.com",
+      "gSTN_No": "01AABCR1718E1ZP",
+      "pAN_No": "AABCR1718E",
+      "id": 101
+    },
+    {
+      "name": "ivison   Maharashtra",
+      "address": "Pune",
+      "pincode": "412205",
+      "contact1": "1234567890",
+      "contact2": "1234567898",
+      "email": "ivision@gmail.com",
+      "gSTN_No": "27AAAAA0000A1Z15",
+      "pAN_No": "AAAAA0000A",
+      "id": 111
+    }
+  ],
+  "billingMaster": [
+    {
+      "paymentTypeId": "",
+      "customerName": "ivision",
+      "totalPaidAmt": "404.97",
+      "totalDueAmt": 0,
+      "totalPaidByCredit": 0,
+      "extraCharge": 0,
+      "discount": 0,
+      "productTotalAmount": "384",
+      "totalTaxAmount": "20.97",
+      "refundAmt": "0",
+      "products": [
+        {
+          "productId": 81,
+          "quantity": 2,
+          "productAmt": 130,
+          "productTaxAmt": "0",
+          "productName": "Pizza"
+        },
+        {
+          "productId": 71,
+          "quantity": 1,
+          "productAmt": 90,
+          "productTaxAmt": "0",
+          "productName": "Burger"
+        },
+        {
+          "productId": 151,
+          "quantity": 1,
+          "productAmt": 34,
+          "productTaxAmt": "0",
+          "productName": "Bajaj Almond Drops"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "paymentTypeId": "",
+      "customerName": "ivision",
+      "totalPaidAmt": "373.33",
+      "totalDueAmt": 0,
+      "totalPaidByCredit": 0,
+      "extraCharge": 0,
+      "discount": 0,
+      "productTotalAmount": "354",
+      "totalTaxAmount": "19.33",
+      "refundAmt": "0",
+      "products": [
+        {
+          "productId": 61,
+          "quantity": 1,
+          "productAmt": 100,
+          "productTaxAmt": "0",
+          "productName": "Burger"
+        },
+        {
+          "productId": 71,
+          "quantity": 1,
+          "productAmt": 90,
+          "productTaxAmt": "0",
+          "productName": "Burger"
+        },
+        {
+          "productId": 81,
+          "quantity": 1,
+          "productAmt": 130,
+          "productTaxAmt": "0",
+          "productName": "Pizza"
+        },
+        {
+          "productId": 151,
+          "quantity": 1,
+          "productAmt": 34,
+          "productTaxAmt": "0",
+          "productName": "Bajaj Almond Drops"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "paymentTypeId": "",
+      "customerName": "ivision",
+      "totalPaidAmt": "105",
+      "totalDueAmt": 0,
+      "totalPaidByCredit": 0,
+      "extraCharge": 0,
+      "discount": 0,
+      "productTotalAmount": "100",
+      "totalTaxAmount": "5",
+      "refundAmt": "0",
+      "products": [
+        {
+          "productId": 61,
+          "quantity": 1,
+          "productAmt": 100,
+          "productTaxAmt": "0",
+          "productName": "Burger"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "Expenses": [
+    {
+      "name": "yogesh",
+      "subject": "tea",
+      "description": "detach nahi",
+      "amount": 40,
+      "date": "2019-03-07",
+      "id": 1
+    },
+    {
+      "name": "trushant bhangare",
+      "subject": "traveling expenses",
+      "description": "for jan 2019",
+      "amount": 123,
+      "date": "2019-03-06",
+      "id": 2
+    }
+  ],
+  "Login": [
+    {
+      "userid": 1,
+      "name": "Trushant",
+      "username": "trush",
+      "password": "123456",
+      "email": "trushant@gmail.com",
+      "token": "ew0KICAgICAgICAidXNlcmlkIjogMSwNCiAgICAgICAgIm5hbWUiIDogIlRydXNoYW50IiwNCiAgICAgICAgICJ1c2VybmFtZSI6InRydXNoIiwNCiAgICAgICAgInBhc3N3b3JkIiA6ICIxMjM0NTYiLA0KICAgICAgICAiZW1haWwiOiJ0cnVzaGFudEBnbWFpbC5jb20iDQp9"
+    },
+    {
+      "userid": 2,
+      "name": "Aksahy",
+      "username": "akshay",
+      "password": "123456",
+      "email": "akshay@gmail.com",
+      "token": "ew0KICAgICAgInVzZXJpZCI6MiwNCiAgICAgICAgIm5hbWUiOiJBa3NhaHkiLA0KICAgICAgICAidXNlcm5hbWUiOiJha3NoYXkiLA0KICAgICAgICAicGFzc3dvcmQiOiAiMTIzNDU2IiwNCiAgICAgICAgImVtYWlsIjoiYWtzaGF5QGdtYWlsLmNvbSINCn0="
+    },
+    {
+      "userid": 3,
+      "name": "Pravin",
+      "username": "pravin",
+      "password": "123456",
+      "email": "pravin@gmail.com",
+      "token": "ew0KICAgICAgInVzZXJpZCI6MywNCiAgICAgICAgIm5hbWUiOiJQcmF2aW4iLA0KICAgICAgICAidXNlcm5hbWUiOiJwcmF2aW4iLA0KICAgICAgICAicGFzc3dvcmQiOiIxMjM0NTYiLA0KICAgICAgICAiZW1haWwiOiJwcmF2aW5AZ21haWwuY29tIg0KfQ=="
+    }
+  ],
+  "Registration": [
+    {
+      "name": "trushant",
+      "contact": "9923520557",
+      "userName": "trushant@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": 1
+    },
+    {
+      "name": "Yogesh",
+      "contact": "7350506667",
+      "userName": "yogesh@gmail.com",
+      "password": "123",
+      "confirm": "123",
+      "id": 2
+    }
+  ],
+  "InwardStock": [
+    {
+      "vendorName": "Aniket Punjab",
+      "GSTNo": "12AAAAA0000A1Z15",
+      "batchName": "CGST",
+      "produtList": [
+        {
+          "quantity": "2323",
+          "rate": "232",
+          "totalPrice": 538936,
+          "productName": "Burger"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "vendorName": "Aniket Punjab",
+      "GSTNo": "12AAAAA0000A1Z15",
+      "batchName": "qsdsd",
+      "produtList": null,
+      "id": 2
+    },
+    {
+      "vendorName": "Aniket",
+      "GSTNo": "12AAAAA0000A1Z15",
+      "batchName": "CGST",
+      "produtList": [
+        {
+          "quantity": "121",
+          "rate": "11",
+          "totalPrice": 1331,
+          "productName": "Pizza"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "vendorName": "Aniket",
+      "GSTNo": "12AAAAA0000A1Z15",
+      "batchName": "CGST",
+      "produtList": [
+        {
+          "quantity": "155",
+          "rate": "55",
+          "totalPrice": 8525,
+          "productName": "Pizza"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "vendorName": "Balaji",
+      "GSTNo": "27AABCR1718E1ZP",
+      "batchName": "IGST",
+      "produtList": [
+        {
+          "quantity": "9",
+          "rate": "8",
+          "totalPrice": 72,
+          "productName": "Burger"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "vendorName": "Aniket",
+      "GSTNo": "12AAAAA0000A1Z15",
+      "batchName": "IGST",
+      "produtList": [
+        {
+          "quantity": "15",
+          "rate": "9",
+          "totalPrice": 135,
+          "productName": "Pizza"
+        }
+      ],
+      "id": 6
+    }
+  ],
+
+  "Products": [
+    {
+      "id": 61,
+      "productName": "Burger",
+      "actualPrice": 90,
+      "salePrice": 100
+    },
+    {
+      "id": 81,
+      "productName": "Pizza",
+      "actualPrice": 120,
+      "salePrice": 130
+    },
+    {
+      "id": 101,
+      "productName": "thums-up",
+      "actualPrice": 10,
+      "salePrice": 15
+    },
+    {
+      "id": 111,
+      "productName": "Jasmin",
+      "actualPrice": 110,
+      "salePrice": 125
+    },
+    {
+      "id": 161,
+      "productName": "parashut",
+      "actualPrice": 115,
+      "salePrice": 110
+    },
+    {
+      "id": 191,
+      "productName": "Momos",
+      "actualPrice": 120,
+      "salePrice": 145
+    },
+    {
+      "id": 201,
+      "productName": "Chiken Burger",
+      "actualPrice": 250,
+      "salePrice": 380
+    },
+    {
+      "id": 211,
+      "productName": "KajuKari",
+      "actualPrice": 120,
+      "salePrice": 180
+    },
+    {
+      "id": 221,
+      "productName": "Chise Butter",
+      "actualPrice": 130,
+      "salePrice": 150
+    },
+    {
+      "id": 241,
+      "productName": "Panner",
+      "actualPrice": 125,
+      "salePrice": 135
+    },
+    {
+      "id": 251,
+      "productName": "Burger",
+      "actualPrice": 30,
+      "salePrice": 40
+    },
+    {
+      "id": 261,
+      "productName": "Lussi",
+      "actualPrice": 45,
+      "salePrice": 55
+    },
+    {
+      "id": 271,
+      "productName": "jeans",
+      "actualPrice": 130,
+      "salePrice": 210
+    },
+    {
+      "id": 281,
+      "productName": "Jasmin",
+      "actualPrice": 115,
+      "salePrice": 110
+    },
+    {
+      "id": 291,
+      "productName": "Shirt",
+      "actualPrice": 358,
+      "salePrice": 450
+    },
+    {
+      "id": 301,
+      "productName": "T-Shirt",
+      "actualPrice": 250,
+      "salePrice": 300
+    },
+    {
+      "id": 311,
+      "productName": "casual shirt",
+      "actualPrice": 580,
+      "salePrice": 690
+    }
+  ],
+  "Menu":[
+    {
+      "menuName": "Product",
+      "parentMenuId": null,
+      "id": 1
+    },
+    {
+      "parentMenuId": 1,
+      "menuName": "Product Type",
+      "id": 2
+    },
+    {
+      "menuName": "Tax",
+      "parentMenuId": null,
+      "id": 3
+    },
+    {
+      "menuName": "Vendor",
+      "parentMenuId": null,
+      "id": 4
+    },
+    {
+      "parentMenuId": 1,
+      "menuName": "dddd",
+      "id": 5
+    },
+    {
+      "parentMenuId": 1,
+      "menuName": "stock",
+      "id": 6
+
+    }
+  ]
+  
+}

@@ -1,0 +1,12 @@
+@import '../../vars.scss';
+@import "./font.scss";
+
+:global {
+  .uikon {
+    @each $name, $color in $colorPairs {
+      &.#{$name} {
+        color: $color;
+      }
+    }
+  }
+}

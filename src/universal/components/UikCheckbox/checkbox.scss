@@ -1,0 +1,88 @@
+@import '../../vars.scss';
+.wrapper {
+  display: inline-block;
+  cursor: pointer;
+	line-height: 17px;
+	user-select: none;
+	position: relative;
+	input{
+		width: 0px;
+		height: 0px;
+		overflow: hidden;
+		position: absolute;
+		visibility: hidden;
+	}
+	.label{
+		color: #333C48;
+    font-size: 0.875rem;
+    line-height: 19px;
+    color: $textBase;
+
+		display: inline-block;
+        &:hover {
+          color: $textMain;
+        }
+
+		&:before {
+			text-align: center;
+			line-height: 14px;
+      transform: translateY(-1px);
+      padding-left: 1px;
+			color: #fff;
+			width: 15px;
+			height: 15px;
+			content: "";
+      font-family: 'dashboard';
+			font-size: 7px;
+			background-color: #FFF;
+			border: 1px solid #DFE3E9;
+			border-radius: 3px;
+			margin-right: 10px;
+			display: inline-block;
+			transition: border .2s, background .2s;
+			vertical-align: middle;
+		}
+		span.checkIcon {
+			position: absolute;
+			left: 9px;
+			top: 4px;
+			display: none;
+			transform: rotate(45deg);
+			&:after , &:before{
+				content: '';
+				display: block;
+				width: 1.4px;
+				border-radius: 0.5px;
+				height: 7px;
+				background: white;
+				position: absolute;
+				left: 3px;
+			}
+			&:after {
+				width: 4.5px;
+				height: 1.4px;
+				top: 5.5px;
+				left: -0.4px;
+			}
+		}
+	}
+  input[disabled] + span:before{
+    background-color: #F4F7FA;
+    color: #F4F7FA;
+    border: 1px solid #DFE3E9;
+  }
+	.checkbox:checked + span {
+		color: $primary;
+		font-weight: 500;
+    &:hover {
+      color: $textBase;
+    }
+		&:before{
+			background-color: $primary;
+			border-color: $primary;
+		}
+		.checkIcon {
+			display: block;
+		}
+	}
+}

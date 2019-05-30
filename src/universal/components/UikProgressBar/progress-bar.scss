@@ -1,0 +1,11 @@
+@import '../../vars.scss';
+.wrapper, .progressLine {
+  width: 100%;
+  height: 4px;
+  background: #EAECEE;
+  border-radius: 4px;
+}
+
+.progressLine {
+  background: $primary;
+}

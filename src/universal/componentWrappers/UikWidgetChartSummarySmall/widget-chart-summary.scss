@@ -1,0 +1,42 @@
+@import '../../vars.scss';
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &>* {
+    &:not(:first-child) {
+      margin-top: 8px;
+    }
+  }
+  .label {
+    color: $textSecondary;
+    text-transform: uppercase;
+    font-size: .75rem;
+    line-height: 1.125rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  .value {
+    font-size: 2.25rem;
+    color: $textMain;
+    line-height: 3.125rem;
+  }
+  .diff {
+    color: $green;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    .icon {
+      font-size: 20px;
+      margin-left: 12px;
+    }
+    &.down {
+      color: $red;
+    }
+  }
+  .chart {
+    margin-top: 24px;
+  }
+}

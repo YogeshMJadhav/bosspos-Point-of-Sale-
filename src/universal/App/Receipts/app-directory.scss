@@ -1,0 +1,12 @@
+.previewWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  & > * {
+    flex-basis: calc(50% - 30px);
+  }
+}
+
+.imagePreview {
+  width: 100%;
+}

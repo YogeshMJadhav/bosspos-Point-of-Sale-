@@ -1,0 +1,8 @@
+@import '~antd/dist/antd.css';
+
+.parent {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 50px
+  
+}

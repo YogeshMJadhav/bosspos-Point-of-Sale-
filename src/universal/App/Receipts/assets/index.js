@@ -1,0 +1,5 @@
+export { default as tutorials } from './tutorials/category.jpg'
+export { default as social } from './social/profile_settings.jpg'
+export { default as documentationDetail } from './documentation/detail.jpg'
+export { default as documentationListHelp } from './documentation/list_of_help.jpg'
+export { default as analytics } from './analytics/dashboard.jpg'

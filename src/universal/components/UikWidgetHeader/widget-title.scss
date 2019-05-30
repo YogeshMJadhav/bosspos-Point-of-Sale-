@@ -1,0 +1,23 @@
+@import '../../vars.scss';
+.wrapper {
+  padding: 23px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+  h3 {
+    /* Title: */
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    + * {
+      margin-top: 0;
+    }
+  }
+  &.noDivider {
+    padding-bottom: 5px;
+    border-bottom: none;
+  }
+}

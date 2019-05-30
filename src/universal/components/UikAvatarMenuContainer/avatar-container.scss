@@ -1,0 +1,7 @@
+@import '../../vars.scss';
+.wrapper {
+  padding: 6px 30px;
+  & > *:not(:last-child) {
+    margin-bottom: 12px
+  }
+}

@@ -1,0 +1,13 @@
+@import "../vars.scss";
+
+.wrapper, .wrapper:focus {
+  border: none;
+  border-radius: 0;
+  font-size: 0.875rem;
+  min-width: 100%;
+  min-height: 38px;
+  text-align: left;
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+}

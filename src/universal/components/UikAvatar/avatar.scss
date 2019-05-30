@@ -1,0 +1,203 @@
+@import '../../vars.scss';
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .name {
+    /* Author: */
+    font-size: 0.875rem;
+    color: $textMain;
+    line-height: 1.375rem;
+    @include textOverflow();
+    i {
+      font-style: normal;
+      color: $textSecondary;
+    }
+  }
+  
+  &.highlighted {
+    .name {
+      font-weight: 500;
+    }
+  }
+
+
+  .avatarWrapper {
+    position: relative;
+    height: 38px;
+    width: 38px;
+    flex-shrink: 0;
+    .avatarAction {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+
+
+    .avatarPlaceholder {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      color: $textSecondary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      line-height: 1.5rem;
+      text-transform: uppercase;
+      background-color: transparent;
+      border: 1px solid $borderColor;
+
+      // generating
+      @each $name, $color in $colorPairs {
+        &:global(.#{$name}) {
+          color: white;
+          background-color: $color;
+          border-color: transparent;
+        }
+      }
+      // extra
+      &:global(.lightblue) {
+        background-color: #98CAEC;
+        background-image: linear-gradient(-45deg, #98CAEC 0%, #44ADE5 100%);
+        border-color: transparent;
+        color: white;
+      }
+    }
+
+    .avatar {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      display: block;
+      & + * {
+        margin-left: 0.75rem;
+      }
+    }
+    .avatarMultiWrapper {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      & > .avatar {
+        border-radius: 0;
+        margin: 0 !important;
+      }
+      &.s2 > .avatar {
+        transform: translateX(-50%);
+      }
+      &.s3 > .avatar {
+        &:nth-child(1) {
+          transform: translateX(-50%);
+        }
+        &:nth-child(2), &:nth-child(3) {
+          height: 50%;
+          width: 50%;
+        }
+        &:nth-child(2) {
+          transform: translateX(-100%);
+        }
+        &:nth-child(3) {
+          transform: translateX(-200%) translateY(100%);
+        }
+      }
+    
+      &.s4 {
+        flex-wrap: wrap;
+        & > .avatar {
+          height: 50%;
+          width: 50%;
+        }
+      }
+    }
+
+  }
+
+  .textTop {
+    font-size: 0.75rem;
+    color: $textSecondary;
+    line-height: 1.125rem;
+    @include textOverflow();
+  }
+  .textBottom {
+    font-size: 0.75rem;
+    color: $textSecondary;
+    line-height: 1.125rem;
+    margin-top: 2px;
+    @include textOverflow();
+  }
+
+
+  &.small {
+    .avatarWrapper {
+      height: 28px;
+      width: 28px;
+    }
+  }
+
+  &.large, &.larger, &.extraLarge {
+    .avatarWrapper {
+      height: 60px;
+      width: 60px;
+    }
+    .textTop, .textBottom {
+      font-size: 0.875rem;
+    }
+
+    .name {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    
+  }
+  &.larger {
+    .avatarWrapper {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  &.extraLarge {
+    .avatarWrapper {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  &.jumbo {
+    .avatarWrapper {
+      height: 120px;
+      width: 120px;
+    }
+  }
+
+
+}
+
+
+
+.info {
+  margin-left: 12px;
+  flex-grow: 1;
+  & > * {
+    display: block;
+  }
+}
+
+
+
+.statusWrapper {
+  margin-left: 10px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $textSecondary;
+  font-size: .75rem;
+  .statusOnline {
+    background: $green;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+  }
+}

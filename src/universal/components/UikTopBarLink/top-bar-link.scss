@@ -1,0 +1,14 @@
+@import '../../vars.scss';
+.wrapper {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  display: block;
+  cursor: pointer;
+  font-size: .875rem;
+  color: $textMain;
+  &:hover,
+  &:global(.active) {
+    color: $primary;
+  }
+}

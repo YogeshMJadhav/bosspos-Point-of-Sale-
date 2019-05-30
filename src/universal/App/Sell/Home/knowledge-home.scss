@@ -1,0 +1,12 @@
+.content {
+  flex-direction: row;
+  & > *:first-child {
+    flex-basis: 600px;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+  & > *:last-child {
+    flex-basis: 380px;
+    flex-shrink: 0;
+  }
+}

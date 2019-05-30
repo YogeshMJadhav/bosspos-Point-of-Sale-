@@ -1,0 +1,9 @@
+@import '../../vars.scss';
+
+.container {
+  display: flex;
+  padding: 0 15px;
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+}

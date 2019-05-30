@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+
+
+.ant-input {
+  height: 35px;
+  font-size: 14px;
+}
+.ant-btn {
+  height: 35px;
+}
+.ant-input-affix-wrapper .ant-input{
+  min-height: auto !important;
+}
+.login-form {
+  padding: 60px 60px 38px;
+  margin: 60px auto;
+  background: #e9ebee;
+}
+.login-form-forgot {
+  float: right;
+} 
+.login-form-button {
+  width: 100%;
+}

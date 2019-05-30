@@ -1,0 +1,34 @@
+@import '../../vars.scss';
+.wrapper {
+  display: flex;
+  height: 60px;
+  padding: 0 30px;
+  align-items: center;
+  .icon + * {
+    margin-left: 20px;
+    flex-shrink: 0;
+  }
+  .title {
+    color: $textMain;
+    flex-grow: 1;
+    @include textOverflow();
+  }
+
+  .count {
+    color: $textSecondary;
+    margin-left: 20px;
+    flex-shrink: 0;
+    font-size: .875rem;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &:hover {
+    .title {
+      color: $primary
+    }
+  }
+
+}

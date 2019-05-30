@@ -1,0 +1,12 @@
+@import '../../vars.scss';
+.horizontal {
+  height: 1px;
+  width: 100%;
+  background: $borderColor;
+}
+
+.vertical {
+  width: 1px;
+  height: 100%;
+  background: $borderColor;
+}

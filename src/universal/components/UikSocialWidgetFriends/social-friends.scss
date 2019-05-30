@@ -1,0 +1,44 @@
+@import '../../vars.scss';
+.wrapper {
+
+}
+.cover {
+  @include backgroundCover();
+  height: 308px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 9%, rgba(0,0,0,0.35) 99%);
+    border-radius: 4px 4px 0 0;
+  }
+  .btnUpdateCover {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+.content {
+  position: relative;
+  .avatar {
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+  .name {
+    position: absolute;
+    left: 180px;
+    top: -47px;
+    font-weight: 500;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    line-height: 2rem;
+  }
+}

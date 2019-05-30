@@ -1,0 +1,23 @@
+.ant-table-body table{
+    border:0px!important;
+}
+.ant-table-body tr, td,th{
+    border:0px!important;
+}
+.ant-table-body tr{
+    border-bottom:1px solid #e8e8e8!important;
+}
+.ant-table-body tr .editable-cell-value-wrap{
+    cursor: pointer;
+    border:1px solid #fff;
+}
+.ant-table-body tr .editable-cell-value-wrap:hover{
+    border:1px solid #ccc;
+}
+.quantity {
+    width:60 ;
+    text-align:center;
+}
+.ant-table-body tr,th {
+    padding-left:0px!important;
+}
