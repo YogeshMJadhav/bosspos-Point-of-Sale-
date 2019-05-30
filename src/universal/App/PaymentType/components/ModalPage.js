@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Form, Select, Input, Button,Modal
 } from 'antd';
-import * as PaymentTypes from '../../shared/services/paymentType'
+import * as PaymentTypes from '../../shared/services/PaymentType'
 const { TextArea } = Input;
 
 

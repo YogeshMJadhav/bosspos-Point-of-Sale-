@@ -1,14 +1,14 @@
 import axios from 'axios';
 import { uri } from './commonURI'
-const url="http://localhost:3005/"
-
-export function getProduct(){
-  return axios.get(url + 'Products');
-}
+// const url="http://localhost:3005/"
 
 // export function getProduct(){
-//     return axios.get(uri + 'Products');
-//   } 
+//   return axios.get(url + 'Products');
+// }
+
+export function getProduct(){
+    return axios.get(uri + 'Products');
+  } 
   export function getProductList(){
     return axios.get(uri + 'ProductList');
   }
