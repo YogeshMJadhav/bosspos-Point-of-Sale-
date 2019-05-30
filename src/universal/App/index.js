@@ -51,10 +51,7 @@ export default class App extends React.PureComponent<AppProps> {
             component={ routeMap.Dashboard }
             path="/dashboard"
           />
-          <Route
-            component={ routeMap.Sell }
-            path="/sell"
-          />
+          
           <Route
             component={ routeMap.Receipts }
             path="/receipts"
@@ -113,6 +110,10 @@ export default class App extends React.PureComponent<AppProps> {
           />
            <Route
             component={ routeMap.Settings }
+            path="/setting"
+          />
+          <Route
+            component={ routeMap.Sell }
             path="/"
           />
           

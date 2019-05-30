@@ -29,7 +29,7 @@ const menuLinks = [
       <Icon type="project" theme="filled" />
 
     ),
-    to: '/'
+    to: '/dashboard'
   },
   {
     text: 'Sell',
@@ -38,7 +38,7 @@ const menuLinks = [
         money_round
       </Uikon>
     ),
-    to: '/sell'
+    to: '/'
   },
   {
     text: 'Receipts',
@@ -140,13 +140,13 @@ const menuLinks = [
     ),
     to: '/user'
   },
-  {
-    text: 'Settings',
-    icon: (
-      <Icon type="setting" theme="filled" />
-    ),
-    to: '/settings' 
-  },
+  // {
+  //   text: 'Settings',
+  //   icon: (
+  //     <Icon type="setting" theme="filled" />
+  //   ),
+  //   to: '/settings' 
+  // },
   {
     text: 'Login',
     icon: (

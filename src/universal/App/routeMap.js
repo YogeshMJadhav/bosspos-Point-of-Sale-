@@ -4,7 +4,7 @@ import Customers from './Customers'
 import Expenses from './Expenses'
 import Dashboard from './Dashboard'
 import Receipts from './Receipts'
-import Settings from './Settings'
+// import Settings from './Settings'
 import Taxes from './Taxes'
 import Billing from './Billing'
 import ProductType from './ProductType'
@@ -24,7 +24,7 @@ const AsyncRouteMap = {
   Expenses,
   Dashboard,
   Receipts,
-  Settings,
+  // Settings,
   Taxes,
   Billing,
   ProductType,
