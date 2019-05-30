@@ -1,5 +1,5 @@
 import React from 'react'
-import * as PaymentTypes from '../../shared/services/paymentType';
+import * as PaymentTypes from '../../shared/services/PaymentType';
 import ModalPage from '../components/ModalPage';
 import {
   Table, Input,Button, InputNumber, Popconfirm, Form,

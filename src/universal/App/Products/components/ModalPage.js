@@ -3,7 +3,7 @@ import * as ProductTypes from '../../shared/services/ProductType'
 import {
   Form, Select, Input, Button,Modal, 
 } from 'antd';
-import * as Products from '../../shared/services/product'
+import * as Products from '../../shared/services/Product'
 import * as Measurments from '../../shared/services/Measurement'
 const { TextArea } = Input;
 const {Option,OptGroup } = Select;

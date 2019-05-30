@@ -140,13 +140,13 @@ const menuLinks = [
     ),
     to: '/user'
   },
-  // {
-  //   text: 'Settings',
-  //   icon: (
-  //     <Icon type="setting" theme="filled" />
-  //   ),
-  //   to: '/settings' 
-  // },
+  {
+    text: 'Settings',
+    icon: (
+      <Icon type="setting" theme="filled" />
+    ),
+    to: '/settings' 
+  },
   {
     text: 'Login',
     icon: (
