@@ -19,7 +19,7 @@
     "antd": "^3.13.4",
     "availity-reactstrap-validation": "^2.5.0",
     "axios": "^0.18.0",
-    "chart.js": "^2.7.2",
+    "chart.js": "^2.9.4",
     "classnames": "^2.2.6",
     "compression": "^1.7.3",
     "cors": "^2.8.5",
